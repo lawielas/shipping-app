@@ -7,5 +7,27 @@ body {
   font-family: "Nunito Sans", sans-serif;
   font-family: "Poppins", sans-serif;
 }
+body .warning {
+  text-align: center;
+  padding: 20px 0;
+}
+body .warning h1 {
+  font-size: 40px;
+  font-family: "Nunito Sans", sans-serif;
+}
+body main {
+  display: none;
+}
 
-/*# sourceMappingURL=main.css.map */
+@media screen and (max-width: 750px) {
+  body {
+    font-family: "Nunito Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+  }
+  body .warning {
+    display: none;
+  }
+  body main {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */

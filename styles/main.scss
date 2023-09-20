@@ -6,4 +6,34 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+
+    .warning {
+        text-align: center;
+        padding: 20px 0;
+
+        h1 {
+            font-size: 40px;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+    }
+
+    main {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    body {
+        font-family: 'Nunito Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+    
+        .warning {
+            display: none;
+        }
+    
+        main {
+            display: block;
+        }
+    }
+    
 }
