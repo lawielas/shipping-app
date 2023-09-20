@@ -155,5 +155,154 @@ body main {
     color: rgb(194, 113, 220);
   }
 }
+.main-dashboard {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  body .main-dashboard {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 113, 220);
+  }
+  body .main-dashboard .header-dashboard {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+  }
+  body .main-dashboard .header-dashboard .search-field {
+    display: flex;
+    padding: 7px 20px;
+    gap: 0 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+  }
+  body .main-dashboard .header-dashboard .search-field .search-bar-left {
+    display: flex;
+    gap: 0 10px;
+    align-items: normal;
+  }
+  body .main-dashboard .header-dashboard .search-field .search-bar-left svg {
+    width: 25px;
+  }
+  body .main-dashboard .header-dashboard .search-field .search-bar-left input {
+    font-size: 16px;
+    border: none;
+    background-color: inherit;
+  }
+  body .main-dashboard .header-dashboard .search-field svg {
+    width: 25px;
+  }
+  body .main-dashboard .header-dashboard .bell {
+    width: 30px;
+  }
+  body .main-dashboard .main-body {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+  body .main-dashboard .main-body .balance-box {
+    margin: 30px 0;
+    width: 70%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 20px;
+  }
+  body .main-dashboard .main-body .balance-box .balance-summary {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(211, 211, 211);
+    padding: 20px 0;
+  }
+  body .main-dashboard .main-body .balance-box .balance-summary .balance-score h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: rgb(211, 211, 211);
+  }
+  body .main-dashboard .main-body .balance-box .balance-summary .balance-score h2 {
+    font-family: "Nunito Sans", sans-serif;
+  }
+  body .main-dashboard .main-body .balance-box .balance-summary .credit-card {
+    width: 40px;
+    border-left: 2px solid rgb(211, 211, 211);
+    padding-left: 20px;
+  }
+  body .main-dashboard .main-body .balance-box .points-score {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+  }
+  body .main-dashboard .main-body .balance-box .points-score .coins-score {
+    display: flex;
+    align-items: center;
+  }
+  body .main-dashboard .main-body .balance-box .points-score .coins-score svg {
+    width: 20px;
+  }
+  body .main-dashboard .main-body .balance-box .points-score .coins-score p {
+    font-size: 16px;
+  }
+  body .main-dashboard .main-body .balance-box .points-score .details {
+    font-size: 16px;
+    color: rgb(194, 113, 220);
+  }
+  body .main-dashboard .main-body .shipping-icons-section {
+    display: flex;
+    justify-content: center;
+    gap: 0 40px;
+    margin: 40px 0px;
+  }
+  body .main-dashboard .main-body .shipping-icons-section .shipping-icons-details .shipping-icon {
+    background-color: rgb(240, 208, 244);
+    padding: 10px;
+    border-radius: 50%;
+  }
+  body .main-dashboard .main-body .shipping-icons-section .shipping-icons-details .shipping-icon svg {
+    width: 40px;
+  }
+  body .main-dashboard .main-body .shipping-icons-section .shipping-icons-details p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  body .main-dashboard .main-body .foot-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 0 30px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  body .main-dashboard .main-body .foot-icons .plus {
+    padding: 18px 26px;
+    background-color: rgb(194, 113, 220);
+    border-radius: 100%;
+    font-size: 32px;
+    color: white;
+  }
+  body .main-dashboard .main-body .foot-icons .foot-icons-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body .main-dashboard .main-body .foot-icons .foot-icons-details .foot-icon svg {
+    width: 30px;
+  }
+  body .main-dashboard .main-body .foot-icons .foot-icons-details a {
+    text-decoration: none;
+  }
+  body .main-dashboard .main-body .foot-icons .foot-icons-details p {
+    color: rgb(196, 196, 196);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
