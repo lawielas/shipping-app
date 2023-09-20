@@ -21,13 +21,139 @@ body main {
 
 @media screen and (max-width: 750px) {
   body {
-    font-family: "Nunito Sans", sans-serif;
     font-family: "Poppins", sans-serif;
+    padding: 50px 0;
   }
   body .warning {
     display: none;
   }
   body main {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-}/*# sourceMappingURL=main.css.map */
+  body main header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body main header .profile-icon {
+    width: 80px;
+    background-color: rgb(218, 218, 218);
+    padding: 20px;
+    border-radius: 70px;
+  }
+  body main header .profile-icon svg {
+    fill: rgb(194, 113, 220);
+  }
+  body main header .welcome {
+    margin: 20px 0;
+  }
+  body main header .welcome h1 {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+  }
+  body main header .welcome p {
+    text-align: center;
+    color: rgb(177, 175, 175);
+  }
+  body main form {
+    width: 80%;
+  }
+  body main form .email-field {
+    display: flex;
+    gap: 0 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 237);
+    margin-bottom: 20px;
+  }
+  body main form .email-field svg {
+    width: 25px;
+  }
+  body main form .email-field input {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+  }
+  body main form .password-field {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 15px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    background-color: rgb(238, 237, 237);
+  }
+  body main form .password-field .password-left-side {
+    display: flex;
+  }
+  body main form .password-field .password-left-side svg {
+    width: 25px;
+  }
+  body main form .password-field .password-left-side input {
+    border: none;
+    background-color: inherit;
+    font-size: 16px;
+  }
+  body main form .password-field svg {
+    width: 25px;
+  }
+  body main form .forgot a {
+    float: right;
+    margin: 10px 0;
+    text-decoration: none;
+    color: rgb(194, 113, 220);
+  }
+  body main form button {
+    display: block;
+    margin: 40px 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: rgb(194, 113, 220);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+  }
+  body main .login-hr {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    align-items: center;
+  }
+  body main .login-hr .hr {
+    width: 100px;
+    border-top: 2px solid rgb(211, 211, 211);
+  }
+  body main .login-hr p {
+    color: rgb(177, 175, 175);
+    font-size: 16px;
+  }
+  body main .auth {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+  }
+  body main .auth .social-login {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    border: 1px solid rgb(211, 211, 211);
+  }
+  body main .auth .social-login svg {
+    width: 30px;
+  }
+  body main .signup p {
+    font-size: 16px;
+  }
+  body main .signup p a {
+    text-decoration: none;
+    color: rgb(194, 113, 220);
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
