@@ -299,9 +299,20 @@ body main {
   }
   body .main-dashboard .main-body .foot-icons .foot-icons-details a {
     text-decoration: none;
+    color: rgb(194, 113, 220);
   }
   body .main-dashboard .main-body .foot-icons .foot-icons-details p {
     color: rgb(196, 196, 196);
+  }
+}
+.main-profile {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .main-profile {
+    display: flex;
+    flex-direction: column;
   }
 }
 
